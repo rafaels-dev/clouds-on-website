@@ -1,0 +1,14 @@
+################ Portuguese language ##################
+[pt]
+languageName = "PT"
+languageCode = "pt-br"
+contentDir = "content/pt-br"
+weight = 3
+
+################ English language ##################
+[en]
+languageName = "EN"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+
