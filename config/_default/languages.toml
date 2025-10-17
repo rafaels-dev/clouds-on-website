@@ -3,12 +3,12 @@
 languageName = "PT"
 languageCode = "pt-br"
 contentDir = "content/pt-br"
-weight = 3
+weight = 1
 
 ################ English language ##################
 [en]
 languageName = "EN"
 languageCode = "en-us"
-contentDir = "content/english"
-weight = 1
+contentDir = "content/en"
+weight = 2
 

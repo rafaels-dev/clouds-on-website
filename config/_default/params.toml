@@ -11,7 +11,7 @@ logo_height = "32px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Hugoplate"
+logo_text = "Clouds-On - Cloud Computing na prática"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
@@ -37,7 +37,7 @@ preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
+enable = false
 label = "get a quote"
 link = "contact"
 
@@ -62,8 +62,29 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
+keywords = [
+  # English
+  "Cloud Computing", "AWS", "Azure", "GCP", "Multi-Cloud", "Cloud Architecture",
+  "DevOps", "SRE", "Site Reliability Engineering", "Infrastructure as Code", "IaC",
+  "Terraform", "Kubernetes", "Docker", "Containers", "Microservices",
+  "CI/CD", "Continuous Integration", "Continuous Deployment", "Cloud Automation",
+  "Cloud Security", "DevSecOps", "Observability", "Monitoring", "Cloud Best Practices",
+  "Distributed Systems", "Scalability", "High Availability", "Cloud Native",
+  "Platform Engineering", "Cloud Tutorials", "Hands-on Cloud", "Practical Cloud Computing",
+  
+  # Spanish
+  "Computación en la Nube", "Arquitectura Cloud", "Nube Múltiple", "Ingeniería de Confiabilidad",
+  "Infraestructura como Código", "Contenedores", "Microservicios", "Automatización en la Nube",
+  "Seguridad en la Nube", "Sistemas Distribuidos", "Escalabilidad", "Alta Disponibilidad",
+  "Nube Nativa", "Ingeniería de Plataformas", "Tutoriales Cloud", "Cloud Práctico",
+  
+  # Portuguese
+  "Computação em Nuvem", "Arquitetura Cloud", "Multi-Nuvem", "Engenharia de Confiabilidade",
+  "Infraestrutura como Código", "Contêineres", "Microsserviços", "Automação na Nuvem",
+  "Segurança na Nuvem", "Sistemas Distribuídos", "Escalabilidade", "Alta Disponibilidade",
+  "Cloud Nativo", "Engenharia de Plataforma", "Tutoriais Cloud", "Cloud na Prática"
+]
+description = "Hands-on cloud computing content: AWS, Azure, GCP, multi-cloud architectures, DevOps, SRE, and Infrastructure as Code in practice."
 author = "zeon.studio"
 twitter = "zeon_studio"
 image = "images/og-image.png"
