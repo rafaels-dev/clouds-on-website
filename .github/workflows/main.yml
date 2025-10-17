@@ -60,19 +60,10 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3.0.1
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          path: ./public
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_CLOUDS_ON }}
+          channelId: live
+          projectId: clouds-on
 
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-24.04-arm
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4.0.5
