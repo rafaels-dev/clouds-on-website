@@ -4,21 +4,20 @@
 [[main]]
 name = "Home"
 url = "/"
+weight = 1
 
 [[main]]
 name = "Blog"
 url = "/blog"
+weight = 2
 
 [[main]]
 name = "Categories"
 url = "/categories"
+weight = 3
 
 [[main]]
 name = "About"
 url = "/about"
-
-
-[[main]]
-name = "Contact"
-url = "/contact"
+weight = 4
 
